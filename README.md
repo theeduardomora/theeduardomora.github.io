@@ -1,2 +1,2 @@
 # theeduardomora.github.io
-Personal Website 
+permalink: /Main.html
