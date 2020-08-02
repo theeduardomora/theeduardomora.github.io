@@ -15,7 +15,7 @@
 	color:white;
 	font-style:italic; 
 	background-image:linear-gradient(to right, #de1f0d, #740991, #4287f5); 
-	width:100%; 
+	width:90%; 
 } 
 .topnav{ 
 	overflow:hidden; 
@@ -41,7 +41,7 @@
 	padding:10px; 
 }
 	
-.row:after { 
+.clearfix:after { 
 	content=""; 
 	display:table; 
 	clear:both; 
@@ -113,14 +113,17 @@ p.ytdesc {
 <a href=""> About </a> 
 </div> 
 
-<div class="row"> 
+<div class="clearfix"> 
 <div class="column"> 
+<div class="clearfix"> 
 <a href="Miscellaneous/HungerGames.html"> 
 <div class="card">
 <div id="youtubegamesimg"> 
 <h1 class="ytdesc">The Youtube Hunger Games</h2>
 </div> 
 </div> 
+</div> 
+	
 </a> 
 
 <div class="card"> 
@@ -149,7 +152,7 @@ p.ytdesc {
 </div> 
 
 </div> 
-</div> <!--end of class row--> 
+<div> <!--end of clearfix--> 
 
 
 </body>
