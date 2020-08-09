@@ -1,0 +1,161 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Eduardo Mora's Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+* { 
+	box-sizing:border-box;
+	} 
+	
+header {
+	padding:5px; 
+	color:#325da1; 
+}
+.topnav{ 
+	overflow:hidden; 
+} 
+.topnav a { 
+	float:left; 
+	display:inline-block; 
+	text-decoration:none; 
+	color:#325da1;
+	-webkit-text-stroke-width:0.1px; 
+	-webkit-text-stroke-color:black; 
+	text-align:center; 
+	padding: 10px 12px; 
+	width:20%;
+	font-size:1.1em;
+}
+.topnav a:visited { 
+	float:left; 
+	display:inline-block; 
+	text-decoration:none; 
+	color:#325da1;
+	-webkit-text-stroke-width:0.1px; 
+	-webkit-text-stroke-color:black; 
+	text-align:center; 
+	padding: 10px 12px; 
+	width:20%;
+	font-size:1.1em;
+} 
+.topnav a:hover { 
+	text-decoration: underline solid #325da1; 
+} 
+
+.columnleft{ 
+	width:50%; 
+	float:left;
+	padding:10px; 
+}
+.columnright{ 
+	width:50%; 
+	float:left;
+	padding:10px; 
+}
+	
+.clearfix::after { 
+	content: ""; 
+	display:table; 
+	clear:both; 
+} 
+	
+@media screen and (max-width:400px) { 
+	.columnleft, .columnright { 
+		width:100%; 
+		padding:0; 
+	} 
+	#ytcont { 
+		height:33vw; 
+	} 
+} 
+	
+.ytdesc { 
+	text-align:center;
+	position:relative; 
+	top:75%; 
+	-webkit-text-fill-color: yellow; 
+	-webkit-text-stroke-width:0.7px; 
+	-webkit-text-stroke-color:black; 
+	text-decoration:underline;
+	
+} 
+#ytcont { 
+	width:100%; 
+	margin:10px;
+	height:30vh; 
+	background-image:url("Pictures/youtubehgamesbanner1.jpg");
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+} 
+
+#loremipsum1img { 
+	background-image:linear-gradient(#000000, #690491);
+	background-color:#00178c; 
+	width:100%; 
+	margin:10px; 
+} 
+#loremipsum2img { 
+	background-color:#0d0202; 
+	width:100%; 
+	color:white; 
+	margin:10px;
+} 
+#loremipsum3img { 
+	background-color:#ffffff; 
+	background-image:linear-gradient(#000000, #ffffff);
+	width:100%;
+	margin:10px; 
+} 
+
+</style> 
+</head> 
+<body>
+
+<header>
+<img src= "Pictures/EMLogo2.png" alt="logo" style="text-align:left; max-height:5vmax; max-width:5vmax; display:inline-block; margin-right:33vw;"> 
+<h1 style="text-align:center; display:inline-block; vertical-align:top;">Eduardo's Website</h1>
+
+</header> 
+
+<div class="topnav"> 
+<a href="index.html">Main</a>
+<a href=""> Activities </a> 
+<a href="">Apps</a> 
+<a href="">Misc</a>
+<a href=""> About </a> 
+</div> 
+
+<div class="clearfix"> 
+	<div class="columnleft"> 
+		<a href="Miscellaneous/HungerGames.html"> 
+		<div id="ytcont">
+		<h1 class="ytdesc">The Youtube Hunger Games</h1>  
+		</div> 
+		</a> 
+
+		<div id="loremipsum2img"> 
+		<h2>Lorem Ipsum </h2>
+		<p> Some text about me in culpa qui officia deserunt mollit anim.. </p> 
+		</div>
+
+	</div>
+
+	<div class="columnright"> 
+
+	<div id="loremipsum1img">
+	<h2 style="color:blue;">Lorem Ipsum2</h2> 
+	<p> Some text about me in culpa qui officia deserunt mollit anim.. </p>
+	</div> 
+
+	<div id="loremipsum3img">  
+	<h2>Lorem Ipsum3</h2> 
+	<p> Some text about me in culpa qui officia deserunt mollit anim.. </p>
+	</div> 
+
+	</div> 
+</div> <!--end of clearfix--> 
+
+
+</body>
+</html> 
