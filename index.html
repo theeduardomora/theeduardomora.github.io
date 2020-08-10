@@ -15,11 +15,11 @@ header {
 	flex-flow:row nowrap; 
 }
 #Logocont { 
-	padding:10px; 
-	background-image:url("Pictures/EMLogo2.png");
-	max-height:10vmax;
-	max-width:10vmax;
-	vertical-align:top;
+	text-align:left; 
+	max-height:5vmax; 
+	max-width:5vmax; 
+	display:inline-block; 
+	margin-right:33vw;
 } 
 nav { 
 	overflow:hidden; 
@@ -51,13 +51,18 @@ nav a:visited {
 nav a:hover { 
 	text-decoration: underline solid #325da1; 
 } 
-
+@media screen and (max-width:800px) {
+	#Logocont { 
+		margin-right:29vw; 
+	} 
+	
+} 	
 </style> 
 </head> 
 
 <body>  
 <header>
-<img src= "Pictures/EMLogo2.png" alt="logo" style="text-align:left; max-height:5vmax; max-width:5vmax; display:inline-block; margin-right:33vw;"> 
+<img id="Logocont" src= "Pictures/EMLogo2.png" alt="logo"> 
 <h1 style="text-align:center; vertical-align:top; display:inline-block;">Eduardo's Website</h1>
 
 </header> 
