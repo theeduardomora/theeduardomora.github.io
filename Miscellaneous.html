@@ -11,11 +11,13 @@
 header {
 	padding:5px; 
 	color:#325da1; 
+	display:flex;
+	flex-flow: row nowrap; 
 }
-.topnav{ 
+nav{ 
 	overflow:hidden; 
 } 
-.topnav a { 
+nav a:link { 
 	float:left; 
 	display:inline-block; 
 	text-decoration:none; 
@@ -27,7 +29,7 @@ header {
 	width:20%;
 	font-size:1.1em;
 }
-.topnav a:visited { 
+nav a:visited { 
 	float:left; 
 	display:inline-block; 
 	text-decoration:none; 
@@ -39,7 +41,7 @@ header {
 	width:20%;
 	font-size:1.1em;
 } 
-.topnav a:hover { 
+nav a:hover { 
 	text-decoration: underline solid #325da1; 
 } 
 
@@ -60,13 +62,14 @@ header {
 	clear:both; 
 } 
 	
-@media screen and (max-width:400px) { 
+@media screen and (max-width:800px) { 
 	.columnleft, .columnright { 
-		width:100%; 
-		padding:0; 
+		width:97%; 
+		margin-left:auto;
+		margin-right:auto;
 	} 
 	#ytcont { 
-		height:33vw; 
+		height:30vh; 
 	} 
 } 
 	
@@ -83,7 +86,7 @@ header {
 #ytcont { 
 	width:100%; 
 	margin:10px;
-	height:30vh; 
+	height:35vh; 
 	background-image:url("Pictures/youtubehgamesbanner1.jpg");
 	background-size:100% 100%; 
 	background-repeat:no-repeat;
@@ -115,16 +118,15 @@ header {
 <header>
 <img src= "Pictures/EMLogo2.png" alt="logo" style="text-align:left; max-height:5vmax; max-width:5vmax; display:inline-block; margin-right:33vw;"> 
 <h1 style="text-align:center; display:inline-block; vertical-align:top;">Eduardo's Website</h1>
-
 </header> 
 
-<div class="topnav"> 
+<nav>
 <a href="index.html">Main</a>
-<a href=""> Activities </a> 
-<a href="">Apps</a> 
+<a href=""> Articles </a> 
+<a href="">Projects</a> 
 <a href="">Misc</a>
-<a href=""> About </a> 
-</div> 
+<a href="">About</a> 
+</nav> 
 
 <div class="clearfix"> 
 	<div class="columnleft"> 
