@@ -14,6 +14,13 @@ header {
 	display:flex;
 	flex-flow: row nowrap; 
 }
+.logo { 
+	text-align:left; 
+	max-height:5vmax; 
+	max-width:5vmax; 
+	display:inline-block; 
+	margin-right:33vw;
+} 
 nav{ 
 	overflow:hidden; 
 } 
@@ -63,14 +70,24 @@ nav a:hover {
 } 
 	
 @media screen and (max-width:800px) { 
+	.logo{ 
+	margin-right:2vw;
+	} 
 	.columnleft, .columnright { 
 		width:97%; 
 		margin-left:auto;
 		margin-right:auto;
 	} 
 	#ytcont { 
-		height:30vh; 
+		height:28vh; 
+		font-size:0.7em;
 	} 
+	.ytdesc { 
+		-webkit-text-stroke-width: 0.4px;
+		position:relative;
+		top:85%;
+		}
+		
 } 
 	
 .ytdesc { 
@@ -116,7 +133,7 @@ nav a:hover {
 <body>
 
 <header>
-<img src= "Pictures/EMLogo2.png" alt="logo" style="text-align:left; max-height:5vmax; max-width:5vmax; display:inline-block; margin-right:33vw;"> 
+<img class="logo" src= "Pictures/EMLogo2.png" alt="logo"> 
 <h1 style="text-align:center; display:inline-block; vertical-align:top;">Eduardo's Website</h1>
 </header> 
 
