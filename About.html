@@ -22,6 +22,9 @@ header {
 	display:inline-block; 
 	margin-right:40.5vw;
 } 
+.Photos {
+	display:inline-block:
+} 
 nav { 
 	overflow:hidden; 
 }
@@ -60,12 +63,41 @@ nav a:hover {
 } 
 
 .card { 
-	margin-top:13vh; 
-	max-width:75%; 
+	margin-top:3vh; 
+	max-width:70%; 
 	margin-left:auto; 
 	margin-right:auto; 
 	
-} 	
+}
+.pre-card { 
+	position:relative; 
+} 
+
+#flex-card1 { 
+	position:relative; 
+	margin-top:5vh; 
+	display:flex; 
+	min-height:25vh; 
+	flex-direction:row; 
+	flex-wrap:no-wrap;
+	justify-content:flex-start;
+}
+#flex-card2 {
+	position:relative;
+	margin-top:5vh; 
+	display:flex; 
+	min-height:25vh; 
+	flex-direction:row; 
+	flex-wrap:no-wrap;
+	justify-content:flex-start;
+}
+
+.cardphoto { 
+	margin:1vw;
+	max-width:80%; 
+} 
+
+
 
 .p1 { 
 	text-indent:2em;
@@ -81,6 +113,9 @@ nav a:hover {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 } 
 </style> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> 
+</script> 
 </head> 
 
 <body>  
@@ -98,8 +133,10 @@ nav a:hover {
 </nav> 
 
 <div class="card"> 
-<p class="p1"> Hello! My name is Ajit(pronounced ah-jeet) Singh. I'm the programmer of this website. Aside from wanting to get my feet wet with web development, our team created this website as an outlet for intriguing ideas and information that we come across and deem interesting enough to share with you all.
-The dissemination of information and ideas is always useful for society to grow. Read ahead to learn about our two-man team. </p>
+<p class="p1"> Hello! My name is Ajit(pronounced ah-jeet) Singh. I'm the programmer of this website. 
+Aside from wanting to get my feet wet with web development, our team created this website as an outlet for intriguing ideas and information that we 
+come across and deem interesting enough to share with you all. The dissemination of information and ideas is always useful for society to grow. 
+Read ahead to learn about our two-man team. </p>
 </div>  
 <br> 
 <br> 
@@ -107,9 +144,41 @@ The dissemination of information and ideas is always useful for society to grow.
 <br> 
 <br>
 <p class="p2"> Founder, Executive, and Researcher</p> 
+</div> 
+<br> 
+<br> 
 
+<div class="pre-card"> 
+<div id="flex-card1"> 
+<div class="cardphoto"> 
+<img src="Pictures/me.jpg" class="Photos">
+</div> 
+<div> 
+<p style="font-size:1.25em; font-family:Trebuchet MS, Helvetica, sans-serif; text-align:center; color:#282b30"> Hello! My name is Eduardo Mora and I am the person responsible for the conception of this website. I thought it would be cool if I had a blog that was not owned or hosted by some organization but rather my very own 
+personal website that I could use to as a means for disseminating my ideas, thoughts, and interests to the public. Every idea that Ajit has must be agreed upon by me in order for it to be realized. I am 
+also responsible for all of the writing and research for the articles in this website, so please contact me if you have any issues regarding that. In my free time I love watching movies and eating pizza. </p> 
+</div>
+</div> 
+</div> 
 
+<br> 
+<br> 
+<br> 
+<p class="p2">Website Developer</p> 
 
+<div class="pre-card"> 
+<div id="flex-card2">  
+<div style="align-self:center;">
+<p style="font-size:1.25em; font-family:Trebuchet MS, Helvetica, sans-serif; text-align:center; color:#282b30">What up what up what up! Ajit in the house! My name is Ajit Singh and I am the one responsible for really doing everything on this website, despite what Eduardo says.
+I am the one solely responsible for programming the website, so everything is quite literally created by me. I know my formidable appearance can be quite intimidating, but I am a pretty regular dude. 
+I love working out, programming, playing video games, and vibing with others, 
+you feel me? Stick around and you'll continue seeing awesome work being created in this website. Ajit out. </p>
+</div>  
+<div class="cardphoto"> 
+<img src="Pictures/AjitSingh.jpg" class="Photos"> 
+</div>
+</div> 
+</div> 
 
 
 
