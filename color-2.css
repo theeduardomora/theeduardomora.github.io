@@ -1,0 +1,8 @@
+:root { 
+    --h2-color: black;
+    --h2-color-light:rgba(46, 40, 40, 0.7);
+    --h3-color:black;
+    --h3-color-light:rgba(46, 40, 40, 0.7);
+    --border-color:black;
+    --text-color: black;
+}

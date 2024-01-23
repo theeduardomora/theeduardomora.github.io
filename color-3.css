@@ -1,0 +1,8 @@
+:root { 
+    --h2-color:#e61b05;
+    --h2-color-light:rgba(230, 27, 5, 0.7);
+    --h3-color:#e61b05;
+    --h3-color-light:rgba(230, 27, 5, 0.7);
+    --border-color:black;
+    --text-color: black;
+}
