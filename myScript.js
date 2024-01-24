@@ -125,6 +125,20 @@ function setActiveTheme(theme) {
   }
 }
 
+var myname = "Eduardo Mora";
+var myname_i = 0;
+var speed = 60;
+setTimeout(function () {
+  typeName();
+}, 700);
+function typeName() {
+  if (myname_i < myname.length) {
+    document.querySelector(".myname").innerHTML += myname.charAt(myname_i);
+    myname_i++;
+    setTimeout(typeName, speed);
+  }
+}
+
 
 // Next/previous controls
 function plusSlides(n) {
